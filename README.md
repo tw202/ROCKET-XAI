@@ -1,4 +1,4 @@
-# ROCKET-XAI-Masterthesis
+# ROCKET-XAI
 This repo contains the code that was part of a Masterthesis to develop an XAI method for Time series classification with ROCKET[1]. The purpose of this repository is to provide the python notebook to reproduce the results and idealy further develop the explainability of ROCKET.
 
 # Notes
