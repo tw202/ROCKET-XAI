@@ -6,7 +6,7 @@ The whole experimental study was conducted in the google collaboratory environme
 
 # Structure
 ## Parameters setting
-Here the parameters can be set to define which of the different developed/tested XAI methods should be run. Furthermore needed directories will be created in the collab environment. This sections also provides some additional parameters that were not part of the paper like e.g. reducing the number important kernels that are used to generate the relevance vectors. Users are animated to explore those parameters and test if they work or how they behave. 
+Here the parameters can be set to define which of the different developed/tested XAI methods should be run. Furthermore needed directories will be created in the collab environment. This sections also provides some additional parameters that were not part of the paper like e.g. reducing the number of important kernels that are used to generate the relevance vectors. Users are animated to explore those parameters and test if they work or how they behave. 
 
 ## Creating data
 As the name says this section creates the dataset that is used in the process of XAI development. It is a time series dataset with 200 instances based on a sine wave signal that is divided into two classes of which one has an anomaly for a discriminative sub series. The data is scaled across the features space as needed to use ROCKET. Although the sktime implementation of ROCKET automatically does that before transforming the data, this feature was not used, but the data is scaled in the next section. 
